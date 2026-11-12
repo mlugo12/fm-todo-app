@@ -51,18 +51,18 @@ function render(){
         const li = document.createElement('li');
         if (todo.completed) li.classList.add('completed');
 
-    li.innerHTML = `
-        <div class="todo-item-left" onclick="toggleTodo('${todo.id}')">
-            <div class="checkbox">
-                ${todo.completed ? '<img src="./images/icon-check.svg" alt="Completed">' : ''}
+        li.innerHTML = `
+            <div class="todo-item-left" onclick="toggleTodo('${todo.id}')">
+                <div class="checkbox">
+                    ${todo.completed ? '<img src="./images/icon-check.svg" alt="Completed">' : ''}
+                </div>
+                <span class="todo-text">${todo.text}</span>
             </div>
-            <span class="todo-text">${todo.text}</span>
-        </div>
-        
-        <button class="delete-btn" onclick="deleteTodo('${todo.id}')" aria-label="Delete item">
-            <img src="./images/icon-cross.svg" alt="Delete item">
-        </button>
-    `;
+            
+            <button class="delete-btn" onclick="deleteTodo('${todo.id}')" aria-label="Delete item">
+                <img src="./images/icon-cross.svg" alt="Delete item">
+            </button>
+        `;
     todoList.appendChild(li);
     });
 
