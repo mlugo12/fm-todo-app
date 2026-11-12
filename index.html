@@ -7,20 +7,16 @@
   <link rel="stylesheet" href="./style.css">
   <title>Frontend Mentor | Todo app</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 0.6875rem; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 
 
 <body>
   <div class="banner"></div>
+
   <main class="todo-container">
 
     <header class="todo-header">
-      <h1>Todo</h1>
+      <h1>To-Do App</h1>
       <button id="theme-toggle" aria-label="Toggle theme">
         <img id="moon-icon"src="./images/icon-moon.svg" alt="Toggle theme">
         <img id="sun-icon" src="./images/icon-sun.svg" alt="Toggle theme" class="hidden">
@@ -28,16 +24,18 @@
     </header>
 
     <form id="todo-form" class="todo-card input-card">
-      <div class="circle-placeholder"></div>
+
       <input type="text" id="todo-input" placeholder="Create your todo">
-      <button type="submit" class="add-btn">Add</button>
+      <button type="submit" class="add-btn">Add +</button>
     </form>
 
     <div class="todo-wrapper">
       <ul id="todo-list">
-
+  
       </ul>
     </div>
+
+
     <div class="action-bar">
       <span id="todo-count">0 items left</span>
       <div class="filters desktop-filters">
@@ -57,7 +55,7 @@
   
   <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
-    Coded by <a href="#">Miguel Lugo</a>.
+     Coded by <a href="#">Miguel Lugo</a>.
   </footer>
 
   <script src="app.js"></script>

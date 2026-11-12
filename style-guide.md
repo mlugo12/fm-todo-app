@@ -13,8 +13,8 @@ The designs were created to the following widths:
 
 ### Primary
 
-- Blue 500: hsl(220, 98%, 61%)
-- Check Background: linear-gradient hsl(192, 100%, 67%) to hsl(280, 87%, 65%)
+- Blue 500: #3a7bfd
+- Check Background: linear-gradient #57ddff to #c058f3
 
 ### Neutral
 
