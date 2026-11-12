@@ -33,8 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Here!](https://mlugo12.github.io/fm-todo-app/))
 
 ## My process
 
@@ -48,5 +47,5 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [My Portfolio site](https://mlugo12.github.io/mlugo.main/)
 
