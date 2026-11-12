@@ -1,4 +1,9 @@
-let todos = [];
+let todos = [
+    { id: 2, text: 'Order food', completed: false },
+    { id: 3, text: 'Exercise', completed: false },
+    { id: 4, text: 'Read for an hour', completed: false },
+    { id: 1, text: 'Complete Todo App', completed: true }
+];
 let currentFilter = 'all';
 
 const todoForm = document.getElementById('todo-form');
@@ -22,7 +27,7 @@ themeToggleBtn.addEventListener('click', () => {
   }
 });
 
-
+render();
 
 function toggleTodo(id) {
     todos = todos.map(todo =>
