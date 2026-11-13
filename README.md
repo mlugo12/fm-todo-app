@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Here!](https://mlugo12.github.io/fm-todo-app/))
+- Live Site URL: [Here!](https://mlugo12.github.io/fm-todo-app/)
 
 ## My process
 
